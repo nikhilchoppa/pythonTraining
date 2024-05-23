@@ -19,10 +19,10 @@ Explanation:
 3-2 => 1
 3*2 => 6
 '''
+#Solution
 print("Give any to numbers to find the sum, difference and product")
 a= int(input("Enter 1st number: "))
 b= int(input("Enter 2nd number: "))
 print(a+b)
 print(a-b)
 print(a*b)
-print(sum(a,b))
