@@ -20,4 +20,8 @@ Explanation:
 3-2 => 1
 3*2 => 6
 """
-
+a = int(input())
+b = int(input())
+sum = print(a+b)
+difference = print(a-b)
+product = print(a*b)
