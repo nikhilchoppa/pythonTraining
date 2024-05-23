@@ -1,0 +1,20 @@
+"""
+Triangle_Angle.py
+Given two integers a and b denoting the two angles of a triangle (in degrees), find the third angle of the triangle (in degrees).
+Note: The given angles will always be of a valid triangle.
+Input
+First line contains an integer denoting a, the first angle.
+Second line contains an integer denoting b, the seocnd angle.
+Output
+One Integer, denoting the third angle of the triangle.
+Example
+Input:
+30
+110
+Output:
+40
+"""
+a = int(input())
+b = int(input())
+c = 180 - (a + b)
+print(c)
