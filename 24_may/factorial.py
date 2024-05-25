@@ -12,7 +12,17 @@ Sample output
 a=int(input("enter number:"))
 fact=1
 i=1
-while i<=a:
-    fact=fact*i
-    i+=1
-print(fact)
+if a==0:
+        print(fact)
+elif a>0:
+    while i<=a:
+    
+        fact=fact*i
+        i+=1
+    print(fact)
+else:
+     print("undefined")
+     
+    
+
+
